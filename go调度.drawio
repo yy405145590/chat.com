@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T07:21:14.443Z" agent="5.0 (Windows)" etag="CszmqS_b5VuohBKtNUYN" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T07:29:19.464Z" agent="5.0 (Windows)" etag="BZ7L8s93XF-HnHmOcpyt" version="16.6.1" type="github">
   <diagram id="Lrg5kurUtaj6RJSmO0BA" name="Page-1">
-    <mxGraphModel dx="2181" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3015" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,7 +238,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-148" value="&lt;div&gt;wakep&lt;/div&gt;&lt;div&gt;startm&lt;/div&gt;&lt;div&gt;唤醒另一个m继续检查是否有go程待执行&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=18;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1470" width="210" height="100" as="geometry" />
+          <mxGeometry x="470" y="1470" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-167" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-164" target="m0ZOB3Q7q5n8RTu2BzLh-166">
           <mxGeometry relative="1" as="geometry" />
