@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T07:16:20.506Z" agent="5.0 (Windows)" etag="m8ZVV3Ama6GySaxpurMl" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T07:21:14.443Z" agent="5.0 (Windows)" etag="CszmqS_b5VuohBKtNUYN" version="16.6.1" type="github">
   <diagram id="Lrg5kurUtaj6RJSmO0BA" name="Page-1">
-    <mxGraphModel dx="2858" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2181" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
             <mxPoint x="524" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-9" value="&lt;div align=&quot;center&quot;&gt;M,P,G调度&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;M：执行go程的机器，cpu线程，实际执行go程，当M唤醒后，必须持有P，再开始执行P上或者抢占过来的go程&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;P：执行所需要的资源，比如内存，全局的P队列，这个作用一方面划分全局的资源到各自的P上，减少竞争，更重要的用来做抢占式调度。&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;G：执行对象，go程。&lt;br&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-9" value="&lt;div align=&quot;center&quot;&gt;M,P,G调度&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;M：执行go程的机器，cpu线程，实际执行go程，当M唤醒后，必须持有P，再开始执行P上或者抢占过来的go程&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;P：执行所需要的资源，比如内存，全局的g队列，这个作用一方面划分全局的资源到各自的P上，减少竞争，更重要的用来做抢占式调度。&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;G：执行对象，go程。&lt;br&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="30" width="790" height="100" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-15" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Grunnable&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
