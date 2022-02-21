@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T03:35:52.237Z" agent="5.0 (Windows)" etag="TwkIkH2vA9G799cg7O0q" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T03:38:41.828Z" agent="5.0 (Windows)" etag="j5q3ldGCis5LNdGH1J9o" version="16.6.1" type="github">
   <diagram id="Lrg5kurUtaj6RJSmO0BA" name="Page-1">
     <mxGraphModel dx="1185" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,43 +29,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-75" value="&lt;div&gt;pending go&lt;/div&gt;&lt;div&gt;netpool里的go程&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="235.5" width="110" height="50" as="geometry" />
+          <mxGeometry x="55" y="345.5" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-77" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Gwaiting&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="290" y="238" width="90" height="45" as="geometry" />
+          <mxGeometry x="290" y="348" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-82" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Grunnable&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="540" y="117.5" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=12;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-83" target="m0ZOB3Q7q5n8RTu2BzLh-84">
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=12;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-83" target="m0ZOB3Q7q5n8RTu2BzLh-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-83" value="&lt;div&gt;Syscall go&lt;/div&gt;&lt;div&gt;正在做系统调用的go程&lt;/div&gt;&lt;div&gt;包括C函数调用和系统函数调用&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5" y="305.5" width="180" height="50" as="geometry" />
+          <mxGeometry x="2" y="432.5" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-84" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Gsyscall&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="290" y="308" width="90" height="45" as="geometry" />
+          <mxGeometry x="290" y="435" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-86" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="416" y="259.58000000000004" as="sourcePoint" />
-            <mxPoint x="525.9999999999998" y="259.9999999999999" as="targetPoint" />
+            <mxPoint x="416" y="369.58000000000004" as="sourcePoint" />
+            <mxPoint x="525.9999999999998" y="369.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-87" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Gwaiting&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="540" y="238" width="90" height="45" as="geometry" />
+          <mxGeometry x="540" y="348" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-88" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Gsyscall&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="550" y="310.5" width="90" height="45" as="geometry" />
+          <mxGeometry x="550" y="437.5" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-89" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="416" y="331.58000000000004" as="sourcePoint" />
-            <mxPoint x="526" y="331.9999999999998" as="targetPoint" />
+            <mxPoint x="416" y="459.58000000000004" as="sourcePoint" />
+            <mxPoint x="526" y="459.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=12;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-91" target="m0ZOB3Q7q5n8RTu2BzLh-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-91" value="&lt;div&gt;runq&lt;/div&gt;&lt;div&gt;各自P上的队列&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="43" y="176" width="100" height="30" as="geometry" />
+          <mxGeometry x="46" y="214" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-93" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="228.58000000000004" as="sourcePoint" />
+            <mxPoint x="522.9999999999998" y="228.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-94" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Grunnable&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="289" y="206.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-95" value="&lt;div&gt;go程&lt;/div&gt;&lt;div&gt;_Grunnable&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="539" y="206.5" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-98" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="330" y="251.5" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-101" value="256个" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="428" y="297" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
