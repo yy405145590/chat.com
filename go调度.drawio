@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T06:55:31.581Z" agent="5.0 (Windows)" etag="RjAsinRHRm5jG81oifwR" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T06:57:51.415Z" agent="5.0 (Windows)" etag="ZShVvQqj5lULhcjvj0hn" version="16.6.1" type="github">
   <diagram id="Lrg5kurUtaj6RJSmO0BA" name="Page-1">
-    <mxGraphModel dx="2012" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,6 +126,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-150" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-112" target="m0ZOB3Q7q5n8RTu2BzLh-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-112" value="&lt;div&gt;globrunqget&lt;/div&gt;&lt;div&gt;全局队列中获取&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="407" y="1157.5" width="141" height="75" as="geometry" />
         </mxCell>
@@ -136,6 +139,9 @@
           <mxGeometry x="-0.2606" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-151" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-115" target="m0ZOB3Q7q5n8RTu2BzLh-148">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-115" value="&lt;div&gt;runqget&lt;/div&gt;&lt;div&gt;本地队列获取&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry y="1475" width="130" height="65" as="geometry" />
@@ -161,6 +167,13 @@
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-137" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-133" target="m0ZOB3Q7q5n8RTu2BzLh-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-153" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-133" target="m0ZOB3Q7q5n8RTu2BzLh-148">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="1653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-133" value="findrunnable" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-20" y="1622.5" width="170" height="60" as="geometry" />
         </mxCell>
@@ -170,6 +183,13 @@
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-140" value="&lt;div&gt;nil&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Verdana;fontColor=default;" vertex="1" connectable="0" parent="m0ZOB3Q7q5n8RTu2BzLh-139">
           <mxGeometry x="-0.1775" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-154" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-136" target="m0ZOB3Q7q5n8RTu2BzLh-148">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1840" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-136" value="&lt;div&gt;//本地队列&lt;br&gt;&lt;/div&gt;&lt;div&gt;runqget&lt;/div&gt;&lt;div&gt;//全局队列&lt;br&gt;&lt;/div&gt;&lt;div&gt;globrunqget&lt;/div&gt;&lt;div&gt;//netpoll中&lt;br&gt;&lt;/div&gt;&lt;div&gt;netpoll&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -183,6 +203,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-156" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-138" target="m0ZOB3Q7q5n8RTu2BzLh-148">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="2110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-138" value="&lt;div&gt;runqsteal&lt;/div&gt;&lt;div&gt;从其他p中窃取g,每次窃取1/2的数量.&lt;/div&gt;&lt;div&gt;窃取的方式：随机一个allp的起点开始遍历可窃取的p&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-50" y="2050" width="230" height="120" as="geometry" />
         </mxCell>
@@ -194,6 +221,9 @@
         </mxCell>
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-146" value="&lt;div&gt;mpark&lt;/div&gt;&lt;div&gt;进入阻塞状态等待唤醒&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-10" y="2420" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-148" value="&lt;div&gt;execute(gp)&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Verdana;fontSize=18;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
