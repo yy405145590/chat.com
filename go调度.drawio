@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T07:29:19.464Z" agent="5.0 (Windows)" etag="BZ7L8s93XF-HnHmOcpyt" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T07:30:53.624Z" agent="5.0 (Windows)" etag="YiX_ixYeLm7tjcuq2lW1" version="16.6.1" type="github">
   <diagram id="Lrg5kurUtaj6RJSmO0BA" name="Page-1">
     <mxGraphModel dx="3015" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,7 +226,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-160" value="&lt;div&gt;startm&lt;/div&gt;&lt;div&gt;唤醒&lt;/div&gt;&lt;div&gt;当有新的go程创建时&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Verdana;fontColor=default;" vertex="1" connectable="0" parent="m0ZOB3Q7q5n8RTu2BzLh-159">
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-160" value="&lt;div&gt;startm&lt;/div&gt;&lt;div&gt;唤醒&lt;/div&gt;&lt;div&gt;当有新的go程创建时，wakep&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Verdana;fontColor=default;" vertex="1" connectable="0" parent="m0ZOB3Q7q5n8RTu2BzLh-159">
           <mxGeometry x="0.0682" y="-3" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
