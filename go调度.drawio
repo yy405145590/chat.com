@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T06:29:52.578Z" agent="5.0 (Windows)" etag="w-ubQEWv4Gl0X-0gcUGa" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T06:55:31.581Z" agent="5.0 (Windows)" etag="RjAsinRHRm5jG81oifwR" version="16.6.1" type="github">
   <diagram id="Lrg5kurUtaj6RJSmO0BA" name="Page-1">
     <mxGraphModel dx="2012" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,8 +175,25 @@
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-136" value="&lt;div&gt;//本地队列&lt;br&gt;&lt;/div&gt;&lt;div&gt;runqget&lt;/div&gt;&lt;div&gt;//全局队列&lt;br&gt;&lt;/div&gt;&lt;div&gt;globrunqget&lt;/div&gt;&lt;div&gt;//netpoll中&lt;br&gt;&lt;/div&gt;&lt;div&gt;netpoll&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-90" y="1762.5" width="310" height="137.5" as="geometry" />
         </mxCell>
-        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-138" value="&lt;div&gt;runqsteal&lt;/div&gt;&lt;div&gt;从其他p中窃取g,每次窃取1/2的数量&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="2018.75" width="210" height="101.25" as="geometry" />
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-144" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-138" target="m0ZOB3Q7q5n8RTu2BzLh-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-145" value="nil" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Verdana;fontColor=default;" vertex="1" connectable="0" parent="m0ZOB3Q7q5n8RTu2BzLh-144">
+          <mxGeometry x="-0.1576" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-138" value="&lt;div&gt;runqsteal&lt;/div&gt;&lt;div&gt;从其他p中窃取g,每次窃取1/2的数量.&lt;/div&gt;&lt;div&gt;窃取的方式：随机一个allp的起点开始遍历可窃取的p&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="2050" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-147" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontFamily=Verdana;fontSize=18;fontColor=default;" edge="1" parent="1" source="m0ZOB3Q7q5n8RTu2BzLh-143" target="m0ZOB3Q7q5n8RTu2BzLh-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-143" value="stopm" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="5" y="2280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-146" value="&lt;div&gt;mpark&lt;/div&gt;&lt;div&gt;进入阻塞状态等待唤醒&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;rounded=1;arcSize=14;strokeWidth=2;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2420" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
