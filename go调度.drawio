@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T07:17:06.499Z" agent="5.0 (Windows)" etag="BpY64-5O_tt02NQiGGxt" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T01:47:31.533Z" agent="5.0 (Windows)" etag="xpM2lZIHRL2og4_QlNLF" version="16.6.2" type="github">
   <diagram id="Lrg5kurUtaj6RJSmO0BA" name="Page-1">
-    <mxGraphModel dx="4024" dy="2622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5717" dy="3660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -262,52 +262,52 @@
         <mxCell id="m0ZOB3Q7q5n8RTu2BzLh-166" value="goexit" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Verdana;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="770" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-2" target="QSWGs-gNvIy-k9Nec1TZ-3">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-2" target="QSWGs-gNvIy-k9Nec1TZ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;go 开始&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;go 开始&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-513" y="515" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-3" target="QSWGs-gNvIy-k9Nec1TZ-5">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-3" target="QSWGs-gNvIy-k9Nec1TZ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;newproc&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;newproc&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-523" y="655" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-5" target="QSWGs-gNvIy-k9Nec1TZ-7">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-5" target="QSWGs-gNvIy-k9Nec1TZ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;newproc1&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;newproc1&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-523" y="795" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-7" target="QSWGs-gNvIy-k9Nec1TZ-9">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-7" target="QSWGs-gNvIy-k9Nec1TZ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;runqput&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;runqput&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-523" y="935" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-9" target="QSWGs-gNvIy-k9Nec1TZ-13">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-9" target="QSWGs-gNvIy-k9Nec1TZ-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-15" value="失败，满了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="QSWGs-gNvIy-k9Nec1TZ-14">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-15" value="失败，满了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" parent="QSWGs-gNvIy-k9Nec1TZ-14" vertex="1" connectable="0">
           <mxGeometry x="-0.3242" y="-1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-9" target="QSWGs-gNvIy-k9Nec1TZ-16">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-9" target="QSWGs-gNvIy-k9Nec1TZ-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;放入本地P上的runq&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;放入本地P上的runq&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-523" y="1075" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-13" target="QSWGs-gNvIy-k9Nec1TZ-16">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-13" target="QSWGs-gNvIy-k9Nec1TZ-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-850" y="1260" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-13" target="QSWGs-gNvIy-k9Nec1TZ-9">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-13" target="QSWGs-gNvIy-k9Nec1TZ-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-855" y="1010" />
@@ -317,38 +317,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-21" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="QSWGs-gNvIy-k9Nec1TZ-20">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-21" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" parent="QSWGs-gNvIy-k9Nec1TZ-20" vertex="1" connectable="0">
           <mxGeometry x="-0.4338" y="3" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="1571" y="-539" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;runqputslow&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;放入全局的队列中，每次放入P上队列的一半&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1020" y="1075" width="330" height="65" as="geometry" />
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;runqputslow&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;放入全局的队列中，每次放入P上队列的一半&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-860" y="780" width="330" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-16" target="m0ZOB3Q7q5n8RTu2BzLh-133">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-16" target="m0ZOB3Q7q5n8RTu2BzLh-133" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-460" y="1668" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;wakep&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;wakep&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-523" y="1215" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-25" target="QSWGs-gNvIy-k9Nec1TZ-26">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-25" target="QSWGs-gNvIy-k9Nec1TZ-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-25" value="schedinit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="543.75" width="180" height="95" as="geometry" />
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-25" value="schedinit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="360" y="5" width="180" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-26" target="QSWGs-gNvIy-k9Nec1TZ-28">
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="QSWGs-gNvIy-k9Nec1TZ-26" target="QSWGs-gNvIy-k9Nec1TZ-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-26" value="procs:=ncpu" style="whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="736.25" width="120" height="60" as="geometry" />
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-26" value="procs:=ncpu" style="whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="390" y="197.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-28" value="&lt;div&gt;procs=getenv(&quot;GOMAXPROCS&quot;) if GOMAXPROCS &amp;gt; 0&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="912.5" width="460" height="102.5" as="geometry" />
+        <mxCell id="QSWGs-gNvIy-k9Nec1TZ-28" value="&lt;div&gt;procs=getenv(&quot;GOMAXPROCS&quot;) if GOMAXPROCS &amp;gt; 0&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=18;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="220" y="373.75" width="460" height="102.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
